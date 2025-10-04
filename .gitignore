@@ -1,0 +1,27 @@
+# data
+data/raw/
+
+# models and artifacts
+*.pt
+*.pkl
+*.joblib
+
+# python
+*.pyc
+__pycache__/
+.venv/
+.env
+
+# tools
+.ruff_cache/
+.pytest_cache/
+.vscode/
+.idea/
+wandb/
+
+# logs and figures (regenerable)
+logs/
+figures/*.png
+
+# slurm
+slurm/
